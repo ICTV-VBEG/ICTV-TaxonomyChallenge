@@ -1,125 +1,43 @@
----
-layout: default
----
+# Why do we need a computational taxonomy?
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+There is a consensus that viruses are so diverse that no single
+taxonomic method can be used to classify them all (Simmonds et
+al. PLoS Biology 2023). Since its inception, the ICTV has been seeking
+the expertise of the global virology community to classify viruses in
+accordance with their domain-specific knowledge. This has generated a
+patchwork of methods that, ideally, capture the features of different
+viral lineages and generate meaningful taxa that are in agreement with
+biology. These methods are formalised in taxonomy proposals
+(taxoprops) written by experts and ratified by the ICTV. These
+documents describe how viruses within each taxon shall be classified,
+and include specific demarcation criteria. They are available as Word
+documents on the ICTV website.
 
-[Link to another page](./another-page.html).
+As metagenomics is rapidly expanding our view of the virosphere, we
+are looking to make sense of the sequences we discover. The number and
+diversity of sequences found in viromics dataset is staggering and
+make their taxonomic classification a daunting task that one would
+ideally automate. There is currently no ICTV-approved method to
+approach this question. While the solution will likely not be trivial,
+we have to face this challenge to keep up with the growth of viruses
+that we aim to classify.
 
-There should be whitespace between paragraphs.
+The demarcation criteria are quite diverse and not encoded in a
+machine-readable way. We envision a future where the demarcation
+criteria for all taxoprops are implemented in reproducible
+computational pipelines, allowing viral sequences to be readily
+classified into taxa at all ranks. The virology experts, including
+ICTV Study Group members, use specialised methods for taxonomic
+classification of their viruses. However, these methods might not be
+readily reproducible by others. At the same time, bioinformaticians
+develop automated tools that can be readily installed and run, but
+might not be able to classify all viruses consistently with the
+virology experts. Through this ICTV/EVBC Workshop on Automating Virus
+Taxonomy, we propose to reinforce the links between these expertises,
+and explore ideas for encoding the demarcation criteria in a
+reproducible way so that they can be applied at a large scale.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+# The methodology
 
-# Header 1
+# The dataset
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-	
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-	s.add_dependency(gem, "= #{version}")
-end
-```
-	  
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-|              |                   |       |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-	- level 3 item
-	- level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
-							
