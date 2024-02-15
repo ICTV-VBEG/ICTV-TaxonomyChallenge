@@ -41,10 +41,55 @@ The fasta file is available here. We ask that your pipeline should
 return a csv file where each entry (or as many as you can), follows
 the following structure:
 
-<div class="table-wrapper" markdown="block">
+<div class="table-wrapper">
+<table>
+	<thead>
+		<tr>
+			<th> </th>
+			<th>col_name1</th>
+			<th>col_name2</th>
+			<th>col_name3</th>
+			<th>col_name4</th>
+			<th>col_name5</th>
+			<th>col_name6</th>
+			<th>col_name7</th>
+			<th>col_name8</th>
+			<th>col_name9</th>
+			<th>col_name10</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>row1</td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+		</tr>
+		<tr>
+			<td>row2</td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+		</tr>
+	</tbody>
+</table>
 
-|SequenceID|Realm|Subrealm|Kingom|Subkingdom|Phylum|Subphylum|Class|Subclass|Order|Suborder|Family|Subfamily|Genus|Subgenus|Species|
+<!--|SequenceID|Realm|Subrealm|Kingom|Subkingdom|Phylum|Subphylum|Class|Subclass|Order|Suborder|Family|Subfamily|Genus|Subgenus|Species|
 |:---------|:----|:-------|:-----|:---------|:-----|:--------|:----|:-------|:----|:-------|:-----|:--------|:----|:-------|:------|
-|ICTVTaxoChallenge_XXXXX|Varidnaviria||Bamfordvirae||Nucleocytoviricota||Megaviricetes||Imitervirales||Mimiviridae|Megamimivirinae|Mimivirus||Mimivirus bradfordmassiliense|
+|ICTVTaxoChallenge_XXXXX|Varidnaviria||Bamfordvirae||Nucleocytoviricota||Megaviricetes||Imitervirales||Mimiviridae|Megamimivirinae|Mimivirus||Mimivirus bradfordmassiliense| -->
 
 </div>
