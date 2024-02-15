@@ -4,4 +4,4 @@ plugins:
 
 title: [ICTV Taxonomy Challenge]
 description: [We created this website to share information and data on the upcoming ICTV Taxonomy Challenge]
-logo: /ICTV-TaxonomyChallenge/assets/img/logo_ictv_tc.png
+logo: [/assets/img/logo_ictv_tc.png]
