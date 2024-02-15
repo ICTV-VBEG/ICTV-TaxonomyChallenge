@@ -41,7 +41,10 @@ The fasta file is available here. We ask that your pipeline should
 return a csv file where each entry (or as many as you can), follows
 the following structure:
 
+<div class="table-wrapper" markdown="block">
+
 |SequenceID|Realm|Subrealm|Kingom|Subkingdom|Phylum|Subphylum|Class|Subclass|Order|Suborder|Family|Subfamily|Genus|Subgenus|Species|
 |:---------|:----|:-------|:-----|:---------|:-----|:--------|:----|:-------|:----|:-------|:-----|:--------|:----|:-------|:------|
 |ICTVTaxoChallenge_XXXXX|Varidnaviria||Bamfordvirae||Nucleocytoviricota||Megaviricetes||Imitervirales||Mimiviridae|Megamimivirinae|Mimivirus||Mimivirus bradfordmassiliense|
 
+</div>
