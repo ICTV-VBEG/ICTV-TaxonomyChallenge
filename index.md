@@ -22,22 +22,27 @@ approach this question. While the solution will likely not be trivial,
 we have to face this challenge to keep up with the growth of viruses
 that we aim to classify.
 
-The demarcation criteria are quite diverse and not encoded in a
-machine-readable way. We envision a future where the demarcation
-criteria for all taxoprops are implemented in reproducible
-computational pipelines, allowing viral sequences to be readily
-classified into taxa at all ranks. The virology experts, including
-ICTV Study Group members, use specialised methods for taxonomic
-classification of their viruses. However, these methods might not be
-readily reproducible by others. At the same time, bioinformaticians
-develop automated tools that can be readily installed and run, but
-might not be able to classify all viruses consistently with the
-virology experts. Through this ICTV/EVBC Workshop on Automating Virus
-Taxonomy, we propose to reinforce the links between these expertises,
-and explore ideas for encoding the demarcation criteria in a
-reproducible way so that they can be applied at a large scale.
-
 # The methodology
+
+We collected viral sequences that experts have classified into the
+various ranks of the ICTV taxonomy. These sequences are available as a
+multifasta file here. The challenge asks you to classify these
+sequences using your pipeline and submit your results to us for
+validation. We only ask that your pipeline be reproducible, i.e., that
+the code and environment necessary to run it be made
+available. Multiple strategies exist, such as the creation of virtual
+environments (venv, conda) or containers (singularity, docker, etc.)
+and the pipeline should be made available via a git repository
+(github, bitbucket).
 
 # The dataset
 
+The fasta file is available here. We ask that your pipeline should
+return a csv file where each entry (or as many as you can), follows
+the following structure:
+
+```
+|SequenceID|Realm|Subrealm|Kingom|Subkingdom|Phylum|Subphylum|Class|Subclass|Order|Suborder|Family|Subfamily|Genus|Subgenus|Species|
+|:---------|:----|:-------|:-----|:---------|:-----|:--------|:----|:-------|:----|:-------|:-----|:--------|:----|:-------|:------|
+|ICTVTaxoChallenge_XXXXX|Varidnaviria||Bamfordvirae||Nucleocytoviricota||Megaviricetes||Imitervirales||Mimiviridae|Megamimivirinae|Mimivirus||Mimivirus bradfordmassiliense|
+```
