@@ -38,13 +38,32 @@ and the pipeline should be made available via a git repository
 # The dataset
 
 The fasta file is available here. We ask that your pipeline should
-return a csv file where each entry (or as many as you can), follows
-the following structure:
+return a csv file where each entry (or as many as you can), has the
+following fields:
+
+* SequenceID
+* Realm
+* Subrealm
+* Kingdom
+* Subkingdom
+* Phylum 
+* Subphylum
+* Class
+* Subclass
+* Order
+* Suborder
+* Family
+* Subfamily
+* Genus
+* Subgenus
+* Species
+
+We have provided a csv template for you to use here.
 
 <div class="table-wrapper" markdown=block>
 
-|SequenceID|Realm|Subrealm|Kingom|Subkingdom|Phylum|Subphylum|Class|Subclass|Order|Suborder|Family|Subfamily|Genus|Subgenus|Species|
-|:---------|:----|:-------|:-----|:---------|:-----|:--------|:----|:-------|:----|:-------|:-----|:--------|:----|:-------|:------|
-|ICTVTaxoChallenge_XXXXX|Varidnaviria||Bamfordvirae||Nucleocytoviricota||Megaviricetes||Imitervirales||Mimiviridae|Megamimivirinae|Mimivirus||Mimivirus bradfordmassiliense|
+|SequenceID|Realm|Subrealm|Kingom|...|Subgenus|Species|
+|:---------|:----|:-------|:-----|:----|:-------|:------|
+|ICTVTaxoChallenge_XXXXX|Varidnaviria||Bamfordvirae|...||Mimivirus bradfordmassiliense|
 
 </div>
