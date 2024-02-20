@@ -87,9 +87,9 @@ left empty We have provided a .tsv template for you to use here.
 
 <div class="table-wrapper" markdown=block>
 
-|SequenceID|Realm|Realm_score|Subrealm|Subrealm_score|Kingom|Kingom_score|...|Subgenus|Subgenus_score|Species|Species_score|
-|:---------|:----|:----------|:-------|:-------------|:-----|:-----------|:--|:-------|:-------------|:------|:------------|
-|ICTVTaxoChallenge_XXXXX|Varidnaviria|0.77|||Bamfordvirae|0.54|...|Mimivirus|0.92|||
+|SequenceID|Realm|Realm_score|Subrealm|Subrealm_score|Kingom|Kingom_score|...|Genus|Genus_score|Subgenus|Subgenus_score|Species|Species_score|
+|:---------|:----|:----------|:-------|:-------------|:-----|:-----------|:--|:----|:----------|:-------|:-------------|:------|:------------|
+|ICTVTaxoChallenge_XXXXX|Varidnaviria|0.77|||Bamfordvirae|0.54|...|Mimivirus|0.92|||Mimivirus lagoaense|0.92|
 
 </div>
 
