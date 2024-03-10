@@ -86,10 +86,51 @@ left empty We have provided a .tsv template for you to use here.
 * Species_score
 
 <div class="table-wrapper">
+<table>
+  <thead>
+    <tr>
+      <th>SequenceID</th>
+      <th>Realm</th>
+      <th>Realm_score</th>
+      <th>Subrealm</th>
+      <th>Subrealm_score</th>
+      <th>Kingom</th>
+      <th>Kingom_score</th>
+      <th>...</th>
+      <!-- ... Add more header columns as needed -->
+      <th>Genus</th>
+      <th>Genus_score</th>
+      <th>Subgenus</th>
+      <th>Subgenus_score</th>
+      <th>Species</th>
+      <th>Species_score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ICTVTaxoChallenge_XXXXX</td>
+      <td>Varidnaviria</td>
+      <td>0.77</td>
+      <td></td>
+      <td></td>
+      <td>Bamfordvirae</td>
+      <td>0.54</td>
+      <td>...</td>
+      <!-- ... Add more cells for each row as needed -->
+      <td>Mimivirus</td>
+      <td>0.92</td>
+      <td></td>
+      <td></td>
+      <td>Mimivirus lagoaense</td>
+      <td>0.92</td>
+    </tr>
+    <!-- Add more rows as needed -->
+  </tbody>
+</table>
 
-|SequenceID|Realm|Realm_score|Subrealm|Subrealm_score|Kingom|Kingom_score|...|Genus|Genus_score|Subgenus|Subgenus_score|Species|Species_score|
+<!--|SequenceID|Realm|Realm_score|Subrealm|Subrealm_score|Kingom|Kingom_score|...|Genus|Genus_score|Subgenus|Subgenus_score|Species|Species_score|
 |:---------|:----|:----------|:-------|:-------------|:-----|:-----------|:--|:----|:----------|:-------|:-------------|:------|:------------|
-|ICTVTaxoChallenge_XXXXX|Varidnaviria|0.77|||Bamfordvirae|0.54|...|Mimivirus|0.92|||Mimivirus lagoaense|0.92|
+|ICTVTaxoChallenge_XXXXX|Varidnaviria|0.77|||Bamfordvirae|0.54|...|Mimivirus|0.92|||Mimivirus lagoaense|0.92|-->
 
 </div>
 
