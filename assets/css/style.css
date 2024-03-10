@@ -4,6 +4,6 @@
 @import "{{ site.theme }}";
 
 .table-wrapper {
-    width: 100%;
-    overflow-x: auto;
+    width: 20%;
+    overflow-x: scroll;
 }
