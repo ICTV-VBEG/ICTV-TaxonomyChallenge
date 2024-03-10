@@ -85,7 +85,7 @@ left empty We have provided a .tsv template for you to use here.
 * Species (binomial)
 * Species_score
 
-<div class="table-wrapper">
+<div>
 <table>
   <thead>
     <tr>
