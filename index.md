@@ -2,17 +2,17 @@
 
 There is a consensus that viruses are so diverse that no single
 taxonomic method can be used to classify them all (Simmonds et
-al. PLoS Biology 2023). Since its inception, the ICTV has been seeking
-the expertise of the global virology community to classify viruses in
-accordance with their domain-specific knowledge. This has generated a
-patchwork of methods that, ideally, capture the features of different
-viral lineages and generate meaningful taxa that are in agreement with
-biology. These methods are formalized in taxonomy proposals
-(taxoprops) written by experts and ratified by the ICTV. These
-documents describe how viruses within each taxon shall be classified,
-and include specific demarcation criteria. 
-<a href=https://ictv.global/files/proposals/approved>The taxoprops are 
-available as Word documents on the ICTV website.</a>
+al. PLoS Biology 2023). Since its inception, the
+[ICTV](https://ictv/global) has been seeking the expertise of the
+global virology community to classify viruses in accordance with their
+domain-specific knowledge. This has generated a patchwork of methods
+that, ideally, capture the features of different viral lineages and
+generate meaningful taxa that are in agreement with biology. These
+methods are formalized in taxonomy proposals (TaxoProps) written by
+experts and ratified by the ICTV. These documents describe how viruses
+within each taxon shall be classified, and include specific
+demarcation criteria. The TaxoProps are available as Word documents on
+the [ICTV website](https://ictv.global/files/proposal/approved).</a>
 
 As metagenomics is rapidly expanding our view of the virosphere, we
 are looking to make sense of the sequences we discover. The number and
@@ -28,30 +28,34 @@ available for virus taxonomy.
 # The methodology
 
 For the challenge, we have collected XXX viral sequences that experts
-have classified into the various ranks of the ICTV taxonomy. These 
-sequences are available as a multi-fasta file (see below). 
-We ask you to classify these sequences using your pipeline and 
-submit your results to us for validation. Importantly, we ask that your 
-pipeline is reproducible and that you make available the
-necessary code and environment to run it. Multiple strategies exist, 
-such as the creation of virtual environments (venv, conda) or 
-containers (Singularity, Docker) and the pipeline should be 
-made available via a git repository (Github, Bitbucket).
+have classified into the various ranks of the ICTV taxonomy. These
+sequences are available as a multi-fasta file (see below).  We ask you
+to classify these sequences using your pipeline and submit your
+results to us for validation. Importantly, we ask that your pipeline
+is reproducible and that you make available the necessary code and
+environment to run it. Multiple strategies exist, such as the creation
+of virtual environments (venv, conda) or containers (Singularity,
+Docker) and the pipeline should be made available via a git repository
+(Github, Bitbucket). The results of your classification will be
+evaluated on multiple metrics, including reproducability, speed,
+accuracy at different ranks, for different types of viruses,
+etc. After the challenge has been closed, we envision writing a report
+of the community's finding and believe this will inform current
+efforts within the ICTV.
 
 # The dataset
 
-The challenge sequences are available in a fasta file here. 
-Every sequence in the file is a different virus contig or genome 
-fragment with unknown accuracy and unknown completeness. 
-The idea is that these
-sequences might have resulted from a metagenomics experiment,
-and your challenge is to classify them into ICTV-approved taxa.
-We ask that your pipeline returns a tab-separated values (.tsv) 
-file with XXX rows representing the contigs and 31 columns as 
-listed below. Fields can be left empty if no annotation is 
-available at that rank. If your tool provides a score for a 
-given prediction it may be added, but the score fields may also be 
-left empty We have provided a .tsv template for you to use here.
+The challenge sequences are available in a fasta file here.  Every
+sequence in the file is a different virus contig or genome fragment
+with unknown accuracy and unknown completeness. The idea is that these
+sequences might have resulted from a metagenomics experiment, and your
+challenge is to classify them into ICTV-approved taxa.  We ask that
+your pipeline returns a tab-separated values (.tsv) file with XXX rows
+representing the contigs and 31 columns as listed below. Fields can be
+left empty if no annotation is available at a certain rank. If your
+tool provides a score for a given prediction it may be added, but the
+score fields may also be left empty. We have provided a .csv template
+for you to use here.
 
 * SequenceID
 * Realm (-viria)
@@ -134,6 +138,35 @@ left empty We have provided a .tsv template for you to use here.
 
 </div>
 
+# How can you send your results?
+
+Our preference would be that you let us know by email where we can
+find your repository when you are done with the analysis. The
+repository should have a "results" folder where the predictions can be
+found as a .tsv file according to the template we provided. The README
+of your repository should provide the necessary instructions to
+reproduce the results as well as a brief description of the
+methodology used for the classification. If you should prefer to leave
+your repository private until the end of the challenge, you can invite
+"0mician" and "ICTV-VBEG" to your repository when ready.
+
+The deadline for submitting the results is under consideration and
+will be announced here when we kickoff the challenge.
+
 # References
 
-* Peter Simmonds, Evelien M. Adriaenssens, F. Murilo Zerbini, Nicola G.A. Abrescia, Pakorn Aiewsakun, Poliane Alfenas-Zerbini, Yiming Bao, Jakub Barylski, Christian Drosten, Siobain Duffy, W. Paul Duprex, Bas E. Dutilh, Santiago F. Elena, María Laura García, Sandra Junglen, Aris Katzourakis, Eugene V. Koonin, Mart Krupovic, Jens H. Kuhn, Amy J. Lambert, Elliot J. Lefkowitz, Małgorzata Łobocka, Cédric Lood, Jennifer Mahony, Jan P. Meier-Kolthoff, Arcady R. Mushegian, Hanna M. Oksanen, Minna M. Poranen, Alejandro Reyes-Muñoz, David L. Robertson, Simon Roux, Luisa Rubino, Sead Sabanadzovic, Stuart Siddell, Tim Skern, Donald B. Smith, Matthew B. Sullivan, Nobuhiro Suzuki, Dann Turner, Koenraad Van Doorslaer, Anne-Mieke Vandamme, Arvind Varsani, and Nikos Vasilakis (2023), "Four principles to establish a universal virus taxonomy", <i>PLoS Biology</i> <b>21</b>: e3001922, doi: <a href=https://doi.org/10.1371/journal.pbio.3001922>10.1371/journal.pbio.3001922</a>.
+* Peter Simmonds, Evelien M. Adriaenssens, F. Murilo Zerbini, Nicola
+  G.A. Abrescia, Pakorn Aiewsakun, Poliane Alfenas-Zerbini, Yiming
+  Bao, Jakub Barylski, Christian Drosten, Siobain Duffy, W. Paul
+  Duprex, Bas E. Dutilh, Santiago F. Elena, María Laura García, Sandra
+  Junglen, Aris Katzourakis, Eugene V. Koonin, Mart Krupovic, Jens
+  H. Kuhn, Amy J. Lambert, Elliot J. Lefkowitz, Małgorzata Łobocka,
+  Cédric Lood, Jennifer Mahony, Jan P. Meier-Kolthoff, Arcady
+  R. Mushegian, Hanna M. Oksanen, Minna M. Poranen, Alejandro
+  Reyes-Muñoz, David L. Robertson, Simon Roux, Luisa Rubino, Sead
+  Sabanadzovic, Stuart Siddell, Tim Skern, Donald B. Smith, Matthew
+  B. Sullivan, Nobuhiro Suzuki, Dann Turner, Koenraad Van Doorslaer,
+  Anne-Mieke Vandamme, Arvind Varsani, and Nikos Vasilakis (2023),
+  Four principles to establish a universal virus taxonomy, <i>PLoS
+  Biology</i> <b>21</b>: e3001922, doi:
+  [10.1371/journal.pbio.3001922](https://doi.org/10.1371/journal.pbio.3001922)
