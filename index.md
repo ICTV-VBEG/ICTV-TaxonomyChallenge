@@ -85,7 +85,7 @@ left empty We have provided a .tsv template for you to use here.
 * Species (binomial)
 * Species_score
 
-<div class="table-wrapper" markdown=block>
+<div class="table-wrapper">
 
 |SequenceID|Realm|Realm_score|Subrealm|Subrealm_score|Kingom|Kingom_score|...|Genus|Genus_score|Subgenus|Subgenus_score|Species|Species_score|
 |:---------|:----|:----------|:-------|:-------------|:-----|:-----------|:--|:----|:----------|:-------|:-------------|:------|:------------|
