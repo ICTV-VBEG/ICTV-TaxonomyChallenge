@@ -12,7 +12,7 @@ methods are formalized in taxonomy proposals (TaxoProps) written by
 experts and ratified by the ICTV. These documents describe how viruses
 within each taxon shall be classified, and include specific
 demarcation criteria. The TaxoProps are available as Word documents on
-the [ICTV website](https://ictv.global/files/proposal/approved).</a>
+the [ICTV website](https://ictv.global/files/proposal/approved).
 
 As metagenomics is rapidly expanding our view of the virosphere, we
 are looking to make sense of the sequences we discover. The number and
@@ -27,21 +27,21 @@ available for virus taxonomy.
 
 # The methodology
 
-For the challenge, we have collected XXX viral sequences that experts
-have classified into the various ranks of the ICTV taxonomy. These
-sequences are available as a multi-fasta file (see below).  We ask you
-to classify these sequences using your pipeline and submit your
-results to us for validation. Importantly, we ask that your pipeline
-is reproducible and that you make available the necessary code and
-environment to run it. Multiple strategies exist, such as the creation
-of virtual environments (venv, conda) or containers (Singularity,
-Docker) and the pipeline should be made available via a git repository
-(Github, Bitbucket). The results of your classification will be
-evaluated on multiple metrics, including reproducability, speed,
-accuracy at different ranks, for different types of viruses,
-etc. After the challenge has been closed, we envision writing a report
-of the community's finding and believe this will inform current
-efforts within the ICTV.
+For the challenge, we have collected thousands of viral sequences that
+experts have classified into the various ranks of the ICTV
+taxonomy. These sequences are available as a multi-fasta file (see
+below).  We ask you to classify these sequences using your pipeline
+and submit your results to us for validation. Importantly, we ask that
+your pipeline is reproducible and that you make available the
+necessary code and environment to run it. Multiple strategies exist,
+such as the creation of virtual environments (venv, conda) or
+containers (Singularity, Docker) and the pipeline should be made
+available via a git repository (Github, Bitbucket). The results of
+your classification will be evaluated on multiple metrics, including
+reproducability, speed, accuracy at different ranks, for different
+types of viruses, etc. After the challenge has been closed, we
+envision writing a report of the community's finding and believe this
+will inform current efforts within the ICTV.
 
 # The dataset
 
@@ -148,7 +148,8 @@ of your repository should provide the necessary instructions to
 reproduce the results as well as a brief description of the
 methodology used for the classification. If you should prefer to leave
 your repository private until the end of the challenge, you can invite
-"0mician" and "ICTV-VBEG" to your repository when ready.
+"0mician" and "ICTV-VBEG" to your repository when ready (github, if
+other git repository system, please email us).
 
 The deadline for submitting the results is under consideration and
 will be announced here when we kickoff the challenge.
