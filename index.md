@@ -45,19 +45,21 @@ will inform current efforts within the ICTV.
 
 # The dataset
 
-The challenge sequences are available in a fasta file here.  Every
+The challenge sequences are available in a fasta file
+[here](https://raw.githubusercontent.com/0mician/ICTV-TaxonomyChallenge/main/dataset/challenge_sequences.fasta). Every
 sequence in the file is a different virus contig or genome fragment
 with unknown accuracy and unknown completeness. The idea is that these
 sequences might have resulted from a metagenomics experiment, and your
 challenge is to classify them into ICTV-approved taxa.  We ask that
-your pipeline returns a tab-separated values (.tsv) file with XXX rows
-representing the contigs and 31 columns as listed below. Fields can be
-left empty if no annotation is available at a certain rank. If your
-tool provides a score for a given prediction it may be added, but the
-score fields may also be left empty. We have provided a .csv template
-for you to use here.
+your pipeline returns a tab-separated values (.tsv) file where each
+rows includes the contig header (CVTC_number) and 31 the columns
+listed below. Fields can be left empty if no annotation is available
+at a certain rank. If your tool provides a score for a given
+prediction it may be added, but the score fields may also be left
+empty. We have provided a .csv template for you to use
+[here](https://raw.githubusercontent.com/0mician/ICTV-TaxonomyChallenge/main/dataset/classification_template.csv).
 
-* SequenceID
+* SequenceID (fasta header)
 * Realm (-viria)
 * Realm_score
 * Subrealm (-vira)
@@ -134,7 +136,7 @@ for you to use here.
 
 <!--|SequenceID|Realm|Realm_score|Subrealm|Subrealm_score|Kingom|Kingom_score|...|Genus|Genus_score|Subgenus|Subgenus_score|Species|Species_score|
 |:---------|:----|:----------|:-------|:-------------|:-----|:-----------|:--|:----|:----------|:-------|:-------------|:------|:------------|
-|ICTVTaxoChallenge_XXXXX|Varidnaviria|0.77|||Bamfordvirae|0.54|...|Mimivirus|0.92|||Mimivirus lagoaense|0.92|-->
+|CVTC_XXXXX|Varidnaviria|0.77|||Bamfordvirae|0.54|...|Mimivirus|0.92|||Mimivirus lagoaense|0.92|-->
 
 </div>
 
