@@ -21,9 +21,9 @@ make their taxonomic classification a daunting task that one would
 ideally automate. There is currently no ICTV-approved method to
 approach this question. While the solution will likely not be trivial,
 we have to face this challenge to keep up with the growth of viruses
-that we aim to classify. The ICTV Taxonomy Challenge is our first 
-attempt at assessing the different computational tools that are 
-available for virus taxonomy. 
+that we aim to classify. The ICTV Computation Virus Taxonomy Challenge
+is our first attempt at assessing the different computational tools
+that are available for virus taxonomy.
 
 # The methodology
 
