@@ -140,6 +140,8 @@ empty. We have provided a .csv template for you to use
 
 </div>
 
+TODO: We will include here a plot of the distribution of the sequences lengths.
+
 # How can you send your results?
 
 Our preference would be that you let us know by email where we can
@@ -153,8 +155,9 @@ your repository private until the end of the challenge, you can invite
 "0mician" and "ICTV-VBEG" to your repository when ready (github, if
 other git repository system, please email us).
 
-The deadline for submitting the results is under consideration and
-will be announced here when we kickoff the challenge.
+## Deadline for the challenge
+	The deadline for submitting the results is under consideration and
+    will be confirmed soon, we currently suggest December 31st 2024.
 
 # References
 
