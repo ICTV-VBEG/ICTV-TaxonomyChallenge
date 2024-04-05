@@ -3,7 +3,7 @@
 There is a consensus that viruses are so diverse that no single
 taxonomic method can be used to classify them all (Simmonds et
 al. PLoS Biology 2023). Since its inception, the
-[ICTV](https://ictv/global) has been seeking the expertise of the
+[ICTV](https://ictv.global) has been seeking the expertise of the
 global virology community to classify viruses in accordance with their
 domain-specific knowledge. This has generated a patchwork of methods
 that, ideally, capture the features of different viral lineages and
@@ -156,8 +156,8 @@ your repository private until the end of the challenge, you can invite
 other git repository system, please email us).
 
 ## Deadline for the challenge
-	The deadline for submitting the results is under consideration and
-    will be confirmed soon, we currently suggest December 31st 2024.
+The deadline for submitting the results is under consideration and
+will be confirmed soon, we currently suggest December 31st 2024.
 
 # References
 
