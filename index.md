@@ -64,16 +64,16 @@ You will find our email address
 For the challenge, we have collected thousands of viral sequences that
 experts have classified into the various ranks of the ICTV taxonomy.
 
-These sequences are available in a fasta file
-[here](https://raw.githubusercontent.com/0mician/ICTV-TaxonomyChallenge/main/dataset/challenge_sequences.fasta). Every
-sequence in the file is a different virus contig or genome fragment
+The fasta sequences are available in the compressed folder
+[here](https://raw.githubusercontent.com/0mician/ICTV-TaxonomyChallenge/main/dataset/dataset_challenge.tar.gz). Every
+sequence in the folder is a different virus contig or genome fragment
 with unknown accuracy and unknown completeness. The idea is that these
 sequences might have resulted from a metagenomics experiment, and your
 challenge is to classify them into ICTV-approved taxa.  We ask that
 your pipeline returns a tab-separated values (.tsv) file where each
-rows includes the contig header (TaxoChallenge_number) and 31 the columns
-listed below. Fields can be left empty if no annotation is available
-at a certain rank. If your tool provides a score for a given
+rows includes the contig header (TaxoChallenge_number) and 31 the
+columns listed below. Fields can be left empty if no annotation is
+available at a certain rank. If your tool provides a score for a given
 prediction it may be added, but the score fields may also be left
 empty. We have provided a .csv template for you to use
 [here](https://raw.githubusercontent.com/0mician/ICTV-TaxonomyChallenge/main/dataset/classification_template.csv).
