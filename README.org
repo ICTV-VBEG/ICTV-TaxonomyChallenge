@@ -1,2 +1,2 @@
 * ICTV-TaxonomyChallenge
-Please visit the dedicated project [[https://0mician.github.io/ICTV-TaxonomyChallenge][website]]
+Please visit the dedicated project [[https://ICTV-VBEG.github.io/ICTV-TaxonomyChallenge][website]]
