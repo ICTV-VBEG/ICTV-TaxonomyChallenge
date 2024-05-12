@@ -27,14 +27,13 @@ that are available for virus taxonomy.
 
 # The methodology
 
-For the challenge, we have collected thousands of viral sequences that
-experts have classified into the various ranks of the ICTV
-taxonomy. These sequences are available as a multi-fasta file (see
-below).  We ask you to classify these sequences using your pipeline
-and submit your results to us for validation. Importantly, we ask that
-your pipeline is reproducible and that you make available the
-necessary code and environment to run it. Multiple strategies exist,
-such as the creation of virtual environments (venv, conda) or
+We ask you to classify these sequences using your pipeline and submit
+your results to us for validation. The classification will be
+evaluated using the Taxonomy Release
+[MSL39](https://ictv.global/news/taxonomy_2023 "MSL39").  Importantly,
+we ask that your pipeline be reproducible and that you make available
+the necessary code and environment to run it. Multiple strategies
+exist, such as the creation of virtual environments (venv, conda) or
 containers (Singularity, Docker) and the pipeline should be made
 available via a git repository (Github, Bitbucket). The results of
 your classification will be evaluated on multiple metrics, including
@@ -43,9 +42,29 @@ types of viruses, etc. After the challenge has been closed, we
 envision writing a report of the community's finding and believe this
 will inform current efforts within the ICTV.
 
-# The dataset
+## How can you send your results?
 
-The challenge sequences are available in a fasta file
+Our preference would be that you let us know by email where we can
+find your repository when you are done with the analysis. You will
+find our  email address
+[here](https://ictv.global/study-groups/list/members?sg=Analytical%20Approaches%20to%20Virus%20Classification
+"here") (please contact Cédric Lood and Bas Dutilh). The repository
+should have a "results" folder where the predictions can be found as a
+.tsv file according to the template we provided. The README of your
+repository should provide the necessary instructions to reproduce the
+results as well as a brief description of the methodology used for the
+classification. If you should prefer to leave your repository private
+until the end of the challenge, you can invite "0mician" and
+"ICTV-VBEG" to your repository when ready (for github, if other git
+repository system is used, please email us).
+
+## The dataset
+
+For the challenge, we have collected thousands of viral sequences that
+experts have classified into the various ranks of the ICTV
+taxonomy. 
+
+These sequences are available in a fasta file
 [here](https://raw.githubusercontent.com/0mician/ICTV-TaxonomyChallenge/main/dataset/challenge_sequences.fasta). Every
 sequence in the file is a different virus contig or genome fragment
 with unknown accuracy and unknown completeness. The idea is that these
@@ -138,22 +157,11 @@ empty. We have provided a .csv template for you to use
 
 ![Sequence lengths distribution](/assets/img/hist_sequence_length.png)
 
-# How can you send your results?
-
-Our preference would be that you let us know by email where we can
-find your repository when you are done with the analysis. The
-repository should have a "results" folder where the predictions can be
-found as a .tsv file according to the template we provided. The README
-of your repository should provide the necessary instructions to
-reproduce the results as well as a brief description of the
-methodology used for the classification. If you should prefer to leave
-your repository private until the end of the challenge, you can invite
-"0mician" and "ICTV-VBEG" to your repository when ready (github, if
-other git repository system, please email us).
-
-## Deadline for the challenge
-The deadline for submitting the results is under consideration and
-will be confirmed soon, we currently suggest December 31st 2024.
+# What is next for the challenge
+The deadline for submitting the results is <b>December 31st
+2024</b>. As soon as the results are evaluated we will use them to
+first draft of manuscript to which all participants will be invited to
+respond and provide input.
 
 # References
 
