@@ -1,5 +1,5 @@
 title: ICTV Computational Virus Taxonomy Challenge
-description: We created this website to share information and data on the ICTV Virus Computational Taxonomy Challenge
+description: A community challenge to evaluate and compare viral genome taxonomy classifiers
 theme: jekyll-theme-minimal
 logo: /assets/img/logo_new.png
 # favicon: /assets/img/favicon.ico
