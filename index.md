@@ -117,16 +117,16 @@ empty. We have provided a .csv template for you to use
       <td>ICTVTaxoChallenge_XXXXX</td>
       <td>Varidnaviria</td>
       <td>0.77</td>
-      <td></td>
-      <td></td>
+      <td>NA</td>
+      <td>NA</td>
       <td>Bamfordvirae</td>
       <td>0.54</td>
       <td>...</td>
       <!-- ... Add more cells for each row as needed -->
       <td>Mimivirus</td>
       <td>0.92</td>
-      <td></td>
-      <td></td>
+      <td>NA</td>
+      <td>NA</td>
       <td>Mimivirus lagoaense</td>
       <td>0.92</td>
     </tr>
