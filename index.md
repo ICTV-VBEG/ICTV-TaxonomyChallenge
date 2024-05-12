@@ -134,13 +134,9 @@ empty. We have provided a .csv template for you to use
   </tbody>
 </table>
 
-<!--|SequenceID|Realm|Realm_score|Subrealm|Subrealm_score|Kingom|Kingom_score|...|Genus|Genus_score|Subgenus|Subgenus_score|Species|Species_score|
-|:---------|:----|:----------|:-------|:-------------|:-----|:-----------|:--|:----|:----------|:-------|:-------------|:------|:------------|
-|CVTC_XXXXX|Varidnaviria|0.77|||Bamfordvirae|0.54|...|Mimivirus|0.92|||Mimivirus lagoaense|0.92|-->
-
 </div>
 
-TODO: We will include here a plot of the distribution of the sequences lengths.
+![Sequence lengths distribution](/assets/img/hist_sequence_length.png)
 
 # How can you send your results?
 
