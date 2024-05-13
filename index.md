@@ -66,7 +66,7 @@ For the challenge, we have collected thousands of viral sequences that
 experts have classified into the various ranks of the ICTV taxonomy.
 
 The fasta sequences are available in the compressed folder
-[here](https://raw.githubusercontent.com/0mician/ICTV-TaxonomyChallenge/main/dataset/dataset_challenge.tar.gz). Every
+[here](https://github.com/ICTV-VBEG/ICTV-TaxonomyChallenge/tree/main/dataset). Every
 sequence in the folder is a different virus contig or genome fragment
 with unknown accuracy and unknown completeness. The idea is that these
 sequences might have resulted from a metagenomics experiment, and your
@@ -77,7 +77,7 @@ columns listed below. Fields can be left empty if no annotation is
 available at a certain rank. If your tool provides a score for a given
 prediction it may be added, but the score fields may also be left
 empty. We have provided a .csv template for you to use
-[here](https://raw.githubusercontent.com/0mician/ICTV-TaxonomyChallenge/main/dataset/classification_template.csv).
+[here](https://raw.githubusercontent.com/0mician/ICTV-TaxonomyChallenge/main/dataset/).
 
 * SequenceID (fasta header)
 * Realm (-viria)
