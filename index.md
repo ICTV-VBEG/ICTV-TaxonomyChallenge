@@ -28,17 +28,18 @@ virus taxonomy.
 
 # The challenge
 
-We ask you to classify the sequences (see dataset) using your pipeline
-and send us your results. The classification will be evaluated using
-the Taxonomy Release [MSL39](https://ictv.global/news/taxonomy_2023
-"MSL39"). Importantly, we ask that your pipeline be <b>fully
-reproducible</b> and that you make available the necessary code and
-environment to run it. Multiple strategies exist, such as the creation
-of virtual environments (venv, conda) or containers (Singularity,
-Docker), and the pipeline should be made available via a git
-repository (Github, Bitbucket). The results of your classification
-will be further evaluated on metrics including reproducability, speed,
-accuracy at different ranks, for different types of viruses, etc.
+We ask you to classify a set of viral sequences using a bioinformatics
+pipeline of your choice or design. The classification will be
+evaluated using the Taxonomy Release
+[MSL39](https://ictv.global/news/taxonomy_2023 "MSL39"). Importantly,
+we ask that your pipeline be <b>fully reproducible</b> and that you
+make available the necessary code and environment to run it. Multiple
+strategies exist, such as the creation of virtual environments (venv,
+conda) or containers (Singularity, Docker), and the code should be
+made available via a git repository (Github, Bitbucket). The results
+of your classification will be further evaluated on metrics including
+reproducability, speed, accuracy at different ranks, for different
+types of viruses, etc.
 
 ## In practice
 
