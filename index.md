@@ -26,7 +26,7 @@ Computational Virus Taxonomy Challenge is our first attempt at
 assessing the different computational tools that are available for
 virus taxonomy.
 
-# In practice
+# The challenge
 
 We ask you to classify the sequences (see dataset) using your pipeline
 and send us your results. The classification will be evaluated using
@@ -40,27 +40,7 @@ repository (Github, Bitbucket). The results of your classification
 will be further evaluated on metrics including reproducability, speed,
 accuracy at different ranks, for different types of viruses, etc.
 
-## How can you send your results?
-
-Our preference would be that you let us know by email where we can
-find your repository when you are done with the analysis.  The
-repository should have a "results" folder where the predictions can be
-found as a .tsv file according to the template we provided. The README
-of your repository should provide the necessary instructions to
-reproduce the results as well as a brief description of the
-methodology used for the classification. If you should prefer to kep
-your repository private until the end of the challenge, you can invite
-"0mician" and "ICTV-VBEG" to your repository, but please note that the
-code should be made public by the time of the write up of the
-challenge's report (see "what's next"). If you would like to use
-another git repository or if repositories are not possible for you but
-you would still want to submit an entry, please contact us by email.
-
-You will find our email address
-[here](https://ictv.global/study-groups/list/members?sg=Analytical%20Approaches%20to%20Virus%20Classification
-"here") (contact Cédric Lood and Bas Dutilh).
-
-## The dataset
+## In practice
 
 For the challenge, we have collected thousands of viral sequences that
 experts have classified into the various ranks of the ICTV taxonomy.
@@ -157,13 +137,33 @@ empty. Please use the provided .csv template [here](https://raw.githubuserconten
 
 ![Sequence lengths distribution](/assets/img/hist_sequence_length.png)
 
+## How can you send your results?
+
+Our preference would be that you let us know by email where we can
+find your repository when you are done with the analysis.  The
+repository should have a "results" folder where the predictions can be
+found as a .tsv file according to the template we provided. The README
+of your repository should provide the necessary instructions to easily
+reproduce the results using the code available in your repository. It
+should also contain a brief description of the methodology used for
+the classification. If you should prefer to keep your repository
+private until the end of the challenge, you can invite "0mician" and
+"ICTV-VBEG" to your repository, but please note that the code should
+be made public by the time of the write up of the challenge's report
+(see "what's next"). If you would like to use another git repository
+or if repositories are not possible for you but you would still want
+to submit an entry, please contact us by email.
+
+You will find our email address
+[here](https://ictv.global/study-groups/list/members?sg=Analytical%20Approaches%20to%20Virus%20Classification
+"here") (contact Cédric Lood and Bas Dutilh).
+
 # What is next for the challenge
 The deadline for submitting the results is <b>December 31st
 2024</b>. We envision writing a report of the community's finding and
 believe this will inform current efforts within the ICTV. To this end,
-the results will be for a first draft of manuscript to which all
-participants will subsequently be invited to respond and provide
-input.
+the results will be used for a first draft of the manuscript to which
+all participants will be invited to respond and provide input.
 
 Any questions or suggestions: please contact us by email, we'll be
 happy to discuss.
