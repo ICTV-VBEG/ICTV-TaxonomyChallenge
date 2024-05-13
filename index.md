@@ -1,8 +1,8 @@
 # Why do we need a computational taxonomy?
 
 There is a consensus that viruses are so diverse that no single
-taxonomic method can be used to classify them all (Simmonds et
-al. PLoS Biology 2023). Since its inception, the
+taxonomic method can be used to classify them all (Simmonds <i>et
+al.</i> PLoS Biology 2023). Since its inception, the
 [ICTV](https://ictv.global) has been seeking the expertise of the
 global virology community to classify viruses in accordance with their
 domain-specific knowledge. This has generated a patchwork of methods
@@ -18,12 +18,13 @@ As metagenomics is rapidly expanding our view of the virosphere, we
 are looking to make sense of the sequences we discover. The number and
 diversity of sequences found in viromics datasets is staggering and
 make their taxonomic classification a daunting task that one would
-ideally automate. There is currently no ICTV-approved method to
-approach this question. While the solution will likely not be trivial,
-we have to face this challenge to keep up with the growth of viruses
-that we aim to classify. The ICTV Computation Virus Taxonomy Challenge
-is our first attempt at assessing the different computational tools
-that are available for virus taxonomy.
+ideally approach using computational tools. There is currently no
+ICTV-approved method to approach this question. While the solution
+will likely not be trivial, we have to face this challenge to keep up
+with the growth of viruses that we aim to classify. The ICTV
+Computational Virus Taxonomy Challenge is our first attempt at
+assessing the different computational tools that are available for
+virus taxonomy.
 
 # In practice
 
