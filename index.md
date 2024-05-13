@@ -166,8 +166,8 @@ the results will be for a first draft of manuscript to which all
 participants will subsequently be invited to respond and provide
 input.
 
-Any questions or suggestions: please contact us, we'll be happy to
-discuss.
+Any questions or suggestions: please contact us by email, we'll be
+happy to discuss.
 
 # References
 
