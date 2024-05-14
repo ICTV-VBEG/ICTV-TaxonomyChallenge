@@ -57,7 +57,7 @@ rows includes the contig header (TaxoChallenge_number) and 31 the
 columns listed below. Fields can be left empty if no annotation is
 available at a certain rank. If your tool provides a score for a given
 prediction it may be added, but the score fields may also be left
-empty. Please use the provided .csv template [here](https://raw.githubusercontent.com/0mician/ICTV-TaxonomyChallenge/main/dataset/).
+empty. Please use the provided .csv template [here](https://github.com/ICTV-VBEG/ICTV-TaxonomyChallenge/main/dataset).
 
 * SequenceID (fasta header)
 * Realm (-viria)
