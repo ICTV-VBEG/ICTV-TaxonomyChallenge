@@ -3,16 +3,16 @@
 There is a consensus that viruses are so diverse that no single
 taxonomic method can be used to classify them all (Simmonds <i>et
 al.</i> PLoS Biology 2023). Since its inception, the
-[ICTV](https://ictv.global) has been seeking the expertise of the
-global virology community to classify viruses in accordance with their
-domain-specific knowledge. This has generated a patchwork of methods
-that, ideally, capture the features of different viral lineages and
-generate meaningful taxa that are in agreement with biology. These
-methods are formalized in taxonomy proposals (TaxoProps) written by
-experts and ratified by the ICTV. These documents describe how viruses
-within each taxon shall be classified, and include specific
-demarcation criteria. The TaxoProps are available as Word documents on
-the [ICTV website](https://ictv.global/files/proposal/approved).
+[ICTV](https://ictv.global) has been seeking the expertise and
+domain-specific knowledge of the global virology community to classify
+viruses. This has generated a patchwork of methods that, ideally,
+capture the features of different viral lineages and generate
+meaningful taxa that are in agreement with biology. These methods are
+formalized in taxonomy proposals (TaxoProps) written by experts and
+ratified by the ICTV. These documents describe how viruses within each
+taxon shall be classified, and include specific demarcation
+criteria. The TaxoProps are available as Word documents on the [ICTV
+website](https://ictv.global/files/proposal/approved).
 
 As metagenomics is rapidly expanding our view of the virosphere, we
 are looking to make sense of the sequences we discover. The number and
@@ -28,36 +28,47 @@ virus taxonomy.
 
 # The challenge
 
-We ask you to classify a set of viral sequences using a bioinformatics
-pipeline of your choice or design. The classification will be
-evaluated using the Taxonomy Release
-[MSL39](https://ictv.global/news/taxonomy_2023 "MSL39"). Importantly,
-we ask that your pipeline be <b>fully reproducible</b> and that you
-make available the necessary code and environment to run it. Multiple
-strategies exist, such as the creation of virtual environments (venv,
-conda) or containers (Singularity, Docker), and the code should be
-made available via a git repository (Github, Bitbucket). The results
-of your classification will be further evaluated on metrics including
-reproducability, speed, accuracy at different ranks, for different
-types of viruses, etc.
+The ICTV Computational Virus Taxonomy Challenge is a challenge for
+bioinformaticians who build methods to classify unknown sequences into
+the ICTV-approved taxonomy. We ask you to classify a set of viral
+sequences using a bioinformatics pipeline of your choice or
+design. The classification will be evaluated using the Taxonomy
+Release [MSL39](https://ictv.global/news/taxonomy_2023
+"MSL39"). Importantly, we ask that your pipeline be <b>fully and
+easily reproducible</b> and that you make available the necessary code
+and environment to run it. Multiple strategies exist, such as the
+creation of virtual environments (venv, conda) or containers
+(Singularity, Docker), and the code should be made available via
+GitHub. The results of your classification will be further evaluated
+on metrics including reproducability, speed, accuracy at different
+ranks, for different types of viruses, etc.
 
 ## In practice
 
-For the challenge, we have collected thousands of viral sequences that
-experts have classified into the various ranks of the ICTV taxonomy.
+For the challenge, we have asked experts to classify thousands of
+viral sequences into the various ranks of the ICTV taxonomy.
+
+<figure>
+  <img src="/assets/img/hist_sequence_length.png" alt="Sequence lenghts distribution">
+  <figcaption>Sequence length distribution of the contigs in the ICTV Computational Virus Taxonomy Challenge.</figcaption>
+</figure> 
 
 The fasta sequences are available in the compressed folder
 [here](https://github.com/ICTV-VBEG/ICTV-TaxonomyChallenge/tree/main/dataset). Every
 sequence in the folder is a different virus contig or genome fragment
 with unknown accuracy and unknown completeness. The idea is that these
 sequences might have resulted from a metagenomics experiment, and your
-challenge is to classify them into ICTV-approved taxa.  We ask that
-your pipeline returns a tab-separated values (.csv) file where each
-rows includes the contig header (TaxoChallenge_number) and 31 the
-columns listed below. Fields can be left empty if no annotation is
-available at a certain rank. If your tool provides a score for a given
-prediction it may be added, but the score fields may also be left
-empty. Please use the provided .csv template [here](https://github.com/ICTV-VBEG/ICTV-TaxonomyChallenge/main/dataset).
+challenge is to classify them into ICTV-approved taxa at the lowest
+appropriate rank. For example, if the sequence represents a new
+species in a known genus, it should be annotated down to the genus
+rank, but not below. We ask that your pipeline returns a tab-separated
+values (.csv) file where each rows includes the contig header
+(TaxoChallenge_number) and 31 the columns listed below. Fields can be
+left empty if no annotation is available at a certain rank. If your
+tool provides a score for a given prediction it may be added, but the
+score fields may also be left empty. Please use the provided .csv
+template
+[here](https://github.com/ICTV-VBEG/ICTV-TaxonomyChallenge/main/dataset).
 
 * SequenceID (fasta header)
 * Realm (-viria)
@@ -136,24 +147,22 @@ empty. Please use the provided .csv template [here](https://github.com/ICTV-VBEG
 
 </div>
 
-![Sequence lengths distribution](/assets/img/hist_sequence_length.png)
-
 ## How can you send your results?
 
-Our preference would be that you let us know by email where we can
-find your repository when you are done with the analysis.  The
-repository should have a "results" folder where the predictions can be
-found as a .tsv file according to the template we provided. The README
-of your repository should provide the necessary instructions to easily
-reproduce the results using the code available in your repository. It
-should also contain a brief description of the methodology used for
-the classification. If you should prefer to keep your repository
-private until the end of the challenge, you can invite "0mician" and
-"ICTV-VBEG" to your repository, but please note that the code should
-be made public by the time of the write up of the challenge's report
-(see "what's next"). If you would like to use another git repository
-or if repositories are not possible for you but you would still want
-to submit an entry, please contact us by email.
+Please let us know by email where we can find your repository when you
+are done with the analysis. The repository should have a "results"
+folder where the predictions can be found as a .tsv file according to
+the template we provided. The README of your repository should provide
+the necessary instructions to easily reproduce the results using the
+code available in your repository. It should also contain a brief
+description of the methodology used for the classification. If you
+should prefer to keep your repository private until the end of the
+challenge, you can invite "0mician" and "ICTV-VBEG" to your GitHub
+repository, but please note that the code should be made public by the
+time of the write up of the challenge's report (see "what's next"). If
+you would like to use another git repository or if repositories are
+not possible for you but you would still want to submit an entry,
+please contact us by email.
 
 You will find our email address
 [here](https://ictv.global/study-groups/list/members?sg=Analytical%20Approaches%20to%20Virus%20Classification
