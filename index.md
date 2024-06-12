@@ -48,10 +48,8 @@ ranks, for different types of viruses, etc.
 For the challenge, we have asked experts to classify thousands of
 viral sequences into the various ranks of the ICTV taxonomy.
 
-<figure>
-  <img src="/assets/img/hist_sequence_length.png" alt="Sequence lenghts distribution">
-  <figcaption>Sequence length distribution of the contigs in the ICTV Computational Virus Taxonomy Challenge.</figcaption>
-</figure> 
+![Sequence lengths distribution](/assets/img/hist_sequence_length.png)
+<em>Sequence length distribution of the contigs in the ICTV Computational Virus Taxonomy Challenge.</em>
 
 The fasta sequences are available in the compressed folder
 [here](https://github.com/ICTV-VBEG/ICTV-TaxonomyChallenge/tree/main/dataset). Every
