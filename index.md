@@ -160,11 +160,7 @@ repository, but please note that the code should be made public by the
 time of the write up of the challenge's report (see "what's next"). If
 you would like to use another git repository or if repositories are
 not possible for you but you would still want to submit an entry,
-please contact us by email.
-
-You will find our email address
-[here](https://ictv.global/study-groups/list/members?sg=Analytical%20Approaches%20to%20Virus%20Classification
-"here") (contact Cédric Lood and Bas Dutilh).
+please contact us by email (see below).
 
 # What is next for the challenge
 The deadline for submitting the results is <b>December 31st
@@ -175,6 +171,14 @@ all participants will be invited to respond and provide input.
 
 Any questions or suggestions: please contact us by email, we'll be
 happy to discuss.
+
+# Contact
+
+Please contact Cédric Lood and Bas Dutilh, you will find our email
+addresses 
+[here](https://ictv.global/study-groups/list/members?sg=Analytical%20Approaches%20to%20Virus%20Classification
+"here")
+
 
 # References
 
