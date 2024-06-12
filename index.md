@@ -169,15 +169,13 @@ believe this will inform current efforts within the ICTV. To this end,
 the results will be used for a first draft of the manuscript to which
 all participants will be invited to respond and provide input.
 
-Any questions or suggestions: please contact us by email, we'll be
-happy to discuss.
-
 # Contact
 
-Please contact Cédric Lood and Bas Dutilh, you will find our email
-addresses 
-[here](https://ictv.global/study-groups/list/members?sg=Analytical%20Approaches%20to%20Virus%20Classification
-"here")
+Any questions or suggestions? Please feel free to contact Cédric Lood
+and Bas Dutilh, we'll be happy to discuss with you. You will find our
+email addresses
+[here.](https://ictv.global/study-groups/list/members?sg=Analytical%20Approaches%20to%20Virus%20Classification
+"here.")
 
 
 # References
