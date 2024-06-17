@@ -45,8 +45,8 @@ ranks, for different types of viruses, etc.
 
 ## In practice
 
-For the challenge, we have asked experts to classify thousands of
-viral sequences into the various ranks of the ICTV taxonomy.
+For the challenge, we have collected thousands of viral sequences that
+experts have classified into the various ranks of the ICTV taxonomy.
 
 ![Sequence lengths distribution](/assets/img/hist_sequence_length.png)
 <em>Sequence length distribution of the contigs in the ICTV Computational Virus Taxonomy Challenge.</em>
@@ -172,8 +172,7 @@ all participants will be invited to respond and provide input.
 # Contact
 
 Any questions or suggestions? Please feel free to contact Cédric Lood
-and Bas Dutilh, we'll be happy to discuss with you. You will find our
-email addresses
+and Bas Dutilh, we will be happy to discuss with you. Our email addresses can be found
 [here.](https://ictv.global/study-groups/list/members?sg=Analytical%20Approaches%20to%20Virus%20Classification
 "here.")
 
