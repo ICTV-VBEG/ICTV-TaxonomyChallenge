@@ -12,7 +12,7 @@ formalized in taxonomy proposals (TaxoProps) written by experts and
 ratified by the ICTV. These documents describe how viruses within each
 taxon shall be classified, and include specific demarcation
 criteria. The TaxoProps are available as Word documents on the [ICTV
-website](https://ictv.global/files/proposal/approved).
+website](https://ictv.global/files/proposals/approved).
 
 As metagenomics is rapidly expanding our view of the virosphere, we
 are looking to make sense of the sequences we discover. The number and
@@ -66,7 +66,7 @@ left empty if no annotation is available at a certain rank. If your
 tool provides a score for a given prediction it may be added, but the
 score fields may also be left empty. Please use the provided .csv
 template
-[here](https://github.com/ICTV-VBEG/ICTV-TaxonomyChallenge/main/dataset).
+[here](https://github.com/ICTV-VBEG/ICTV-TaxonomyChallenge/tree/main/dataset).
 
 * SequenceID (fasta header)
 * Realm (-viria)
