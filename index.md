@@ -30,8 +30,8 @@ virus taxonomy.
 
 The ICTV Computational Virus Taxonomy Challenge is a challenge for
 bioinformaticians who build methods to classify unknown sequences into
-the ICTV-approved taxonomy. We ask you to classify a set of viral
-sequences using a bioinformatics pipeline of your choice or
+the current ICTV-approved taxonomy. We ask you to classify a set of
+viral sequences using a bioinformatics pipeline of your choice or
 design. The classification will be evaluated using the Taxonomy
 Release [MSL39](https://ictv.global/news/taxonomy_2023
 "MSL39"). Importantly, we ask that your pipeline be <b>fully and
