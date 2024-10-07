@@ -155,7 +155,7 @@ the necessary instructions to easily reproduce the results using the
 code available in your repository. It should also contain a brief
 description of the methodology used for the classification. If you
 should prefer to keep your repository private until the end of the
-challenge, you can invite "0mician" and "ICTV-VBEG" to your GitHub
+challenge, you can invite "0mician" and "dutilh" to your GitHub
 repository, but please note that the code should be made public by the
 time of the write up of the challenge's report (see "what's next"). If
 you would like to use another git repository or if repositories are
